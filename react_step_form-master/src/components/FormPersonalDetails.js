@@ -33,7 +33,6 @@ export class personaldetails extends Component {
             maxWidth='sm'
           >
             <AppBar title="Enter Personal Details" />
-            <fieldset>
               <FormLabel>Gender</FormLabel>
               <RadioGroup
                 name="gender1"
@@ -154,7 +153,6 @@ export class personaldetails extends Component {
                 <FormControlLabel value="L" control={<Radio />} label="L" />
                 <FormControlLabel value="XL" control={<Radio />} label="XL" />
               </RadioGroup>
-            </fieldset>
             <br />
             <br />
             <Button
